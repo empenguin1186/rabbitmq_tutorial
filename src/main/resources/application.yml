@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: usage_message
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 10000
+
+message-broker:
+  queueName: message-broker-test
+  topicExchangeName: spring-boot-exchange
